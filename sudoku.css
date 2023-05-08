@@ -1,0 +1,48 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(9, 45px); /* Creates 9 equal columns */
+    grid-template-rows: repeat(9, 45px); /* Creates 9 equal rows */
+    justify-content: center; /* centers my grid */
+    }
+  
+  /* Style each cell */
+  .grid input {
+    background-color: #f9f9f9; /* Set a background color */
+  }
+
+  .upright {
+    border-right: solid red;
+    border-top: solid red;
+  }
+
+  .upleft {
+    border-top: solid red;
+    border-left: solid red;
+  }
+
+  .downright {
+    border-right: solid red;
+    border-bottom: solid red;
+  }
+
+  .downleft {
+    border-left: solid red;
+    border-bottom: solid red;
+  }
+
+  .up {
+    border-top: solid red;
+  }
+
+  .down {
+    border-bottom: solid red;
+  }
+
+  .left {
+    border-left: solid red;
+
+  }
+
+  .right {
+    border-right: solid red;
+  }
